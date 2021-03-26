@@ -16,57 +16,57 @@ module.exports.run = async(client, message, args) => {
         const uptime = (process.uptime() + "").toHHMMSS();
         const embed = new MessageEmbed()
             .setThumbnail(client.user.displayAvatarURL())
-            .setTitle('<:blazee:812100308339654676> ・Botinfo')
+            .setTitle('<:leezo:824714317190004828> ・Botinfo')
             .setColor('#FFF000')
             .addFields(
                 {
-                    name: '・Nom',
+                    name: '<a:infini:822967691689984051> ・Nom',
                     value: `**\`${client.user.username}\`**`,
                     inline: true
                 },
                 {
-                    name: '・Tag',
+                    name: '<a:fleche:822966126999896064> ・Tag',
                     value: `**\`${client.user.tag}\`**`,
                     inline: true
                 },
                 {
-                    name: '・ID',
+                    name: '<a:load:822961685131427850> ・ID',
                     value: `**\`${client.user.id}\`**`,
                     inline: true
                 },
                 {
-                    name: '\<:maen:815353131780145223> ・Créateur',
-                    value: `Le créateur de Leezo est <@381462429361504266>`,
+                    name: '\<:crateur:823824747250188288> ・Créateur',
+                    value: `Le créateur de Leezo est <@518738416796696578j>`,
                     inline: true
                 },
                 {
-                    name: '<:databasestorage:815368593352294451>・Serveurs',
+                    name: '<:serveurr:824021757433348166>・Serveurs',
                     value: `Leezo est présent sur **\`${client.guilds.cache.size}\`** serveur(s).`,
                     inline: true
                 },
                 {
-                    name: '<:teammember:815359310619607101>・Salons',
+                    name: '<:salons:824715238016417872>・Salons',
                     value: `Il observe \`${client.channels.cache.size}\` salons.`,
                     inline: true
                 },
                 {
-                    name: '<:community:815359146882629692>・Membres',
+                    name: '<:membres:824715655706181662>・Membres',
                     value: `\`${client.guilds.cache.reduce((acc, guild) => acc + guild.memberCount, 0)}\` membres utilisent Blazee`,
                     inline: true
                 },
                 {
-                    name: '<:pong:814904372751630387>・Ping',
+                    name: '<:pong:823824698206846986>・Ping',
                     value: `\`${Math.round(client.ws.ping)}ms\``,
                     inline: true
                 },
                 {
-                    name: '<:servers:815367968279625748>・Informations du Serveur',
-                    value: `Cores: ${os.cpus().length}`,
+                    name: '<:serveur:823824936921202738>・Informations du Serveur',
+                    value: `Cores: \`${os.cpus().length}\``,
                     inline: true
                 },
                 {
-                    name: '<:target:815353418700685333>・Creé le',
-                    value: `J'ai été crée le 23 Février 2021 à 02h47`,
+                    name: '<:cible:823824826753089577>・Creé le',
+                    value: `J'ai été crée le \`23 Février 2021\` à \`02h47\``,
                     inline: true
                 },
                 {
@@ -80,15 +80,15 @@ module.exports.run = async(client, message, args) => {
                     inline: true
                 },
                 {
-                    name: '<:maen:815353131780145223> ・Contributeurs',
-                    value: `Les contributeurs de Leezo sont: `,
+                    name: '<:groupe:823824877035323404> ・Contributeurs',
+                    value: `Les contributeurs de Leezo sont: \`๖̶ζ͜͡Mathéo#6978\` \n \`TetraLiaa#2674\``,
                     inline: true
                 },
-                {
-                     name: '🔢・Nombres de commandes.',
-                     value: `\`${message.client.commands.size}\``,
-                     inline: true
-                } ,
+             // {
+             //    name: '🔢・Nombres de commandes.',
+             //    value: `\`${message.client.commands.size}\``,
+             //    inline: true
+             //} ,
                 {
                     name: '🖥・Language',
                     value: `Leezo est coder en : \`JS\`.`,
@@ -100,12 +100,12 @@ module.exports.run = async(client, message, args) => {
                     inline: true
                 },
                 {
-                    name: '・Version de Leezo',
+                    name: '<a:certif:822967716000301076> ・Version de Leezo',
                     value: `Version **\`1.2.1\`**`,
                     inline: true
                 },
                 {
-                    name: '・Support de Leezo',
+                    name: '<a:warn:822967840511361065> ・Support de Leezo',
                     value: `[Support !](https://discord.gg/GFcEdDCeSj)`,
                     inline: true
                 },               
